@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+  font-family: "Monsterrat", sans-serif;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: #343F56;
+}
+
+button.carousel {
+  background-color: #387C6D;
+  color: #F8F5F1;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  color: #387C6D;
+}
+.wrapper{
+  display:grid;
+  grid-template-columns: 40% 60%;
+  grid-column-gap:1em;
+  grid-row-gap:1em;
+  /*
+  or grid-gap:1em;
+   */
+}
+.wrapper > div{
+  padding:1em;
+}
+#boxes {
+  display: grid;
+  grid-row: 3;
+  align-content: space-evenly;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 3rem;
+  grid-column: 1 / span 2;
+}
+#boxes > div {
+  padding: 10px;
+  background-color: #F8F5F1;
+}
+
+/*# sourceMappingURL=output.css.map */

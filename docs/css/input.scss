@@ -1,0 +1,61 @@
+$color-white: #F8F5F1;
+$color-navy:  #343F56;
+$color-coral: #E9896A;
+$color-green: #387C6D;
+body{
+  background-color:white;
+  font-family: 'Monsterrat' ,sans-serif;
+
+}
+h1{
+  font-family:'Raleway', sans-serif;
+  color: $color-navy;
+}
+
+button.carousel{
+  background-color: $color-green;
+  color: $color-white;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: $color-green;
+}
+.wrapper{
+  display:grid;
+  grid-template-columns: 40% 60%;
+  grid-column-gap:1em;
+  grid-row-gap:1em;
+  /*
+  or grid-gap:1em;
+   */
+}
+.wrapper{
+  display:grid;
+  grid-template-columns: 40% 60%;
+  grid-column-gap:1em;
+  grid-row-gap:1em;
+  /*
+  or grid-gap:1em;
+   */
+}
+.wrapper > div{
+  padding:1em;
+}
+
+#boxes {
+  display: grid;
+  grid-row: 3;
+  height: 200px;
+  align-content: space-evenly;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 3rem;
+  grid-column: 1 / span 2;
+}
+#boxes > div {
+  padding: 10px;
+  background-color: #F8F5F1;
+
+}
+
+
