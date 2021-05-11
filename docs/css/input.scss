@@ -5,6 +5,7 @@ $color-green: #387C6D;
 body{
   background-color:white;
   font-family: 'Monsterrat' ,sans-serif;
+  font-size: 20px;
 
 }
 h1{
@@ -58,4 +59,9 @@ h2{
 
 }
 
+h3{
+  color: $color-coral;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
 
